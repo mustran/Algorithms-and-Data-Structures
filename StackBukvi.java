@@ -1,3 +1,11 @@
+//Letters Problem 7 (0 / 19)
+//You are given an array of uppercase letters, in which the letter S appears even number of times. 
+//After each S the letter Т appears one or more times. Using a stack, check if after each S (until the next S), 
+//if Т appears the same number of times. Input: First line, array of characters (string).
+//Output: Print 1 if the condition is fulfilled, otherwise print 0.
+
+Class name: StackBukvi
+
 package Letters;
 
         import java.io.BufferedReader;
