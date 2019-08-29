@@ -148,12 +148,7 @@ public class MostFrequentSubstring {
                 }
             }
         }
-
-        String a = "a";
-        String b = "b";
-
-//        System.out.println(a.compareTo(b));
-
+        
 //        System.out.println(tabela);
 //        System.out.println(mostFrequent);
 
