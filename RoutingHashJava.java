@@ -1,3 +1,13 @@
+/* 
+Stating routing Problem 2 (0 / 0)
+You should simulate routing by using a hash table. Every router is one bucket in the hash table and it receives the input packets only through one interface. Since the router performs the routing of the packet by using the static routes it knows, when it receives a packet it should tell if it is possible to route the packet in the network (postoi or nepostoi). It is important that all addresses have network mask /24 which means that the last 8 bits are allocated for addressing. We assume that all addresses are busy and the packet can be transferred to any device in a network if the network exists in the routing table. For example, if the address 10.10.10.0 can be found in the routing table, it means that the router can transfer the packet to all devices in that network (10.10.10.1- 10.10.10.254).
+
+The number of the routers is given in the first input line. In the next lines for each router the IP address of the interface and IP addresses of the networks to which it has static routes are given. Then the number of routing attempts are entered. In the next lines for each attempt an input interface and device IP address are given. The router should answer if it knows the address or not.
+
+Class Name :RoutingHashJava
+*/
+
+
 package Lab06_Hashing.Staticko_rutiranje_2;
 
 import java.io.BufferedReader;
