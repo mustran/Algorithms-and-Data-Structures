@@ -1,3 +1,16 @@
+/*
+Army Problem 2 (2 / 6)
+Before the commander are lined up all the soliders, and in a doubly linked list are given their IDs. The commander doesn't like how the soliders are lined up so he decides to choose two sub-intervals and swap them, i.e. the soliders in the first sub-interval will now be in the second, and vice versa.
+
+Input: In the first line you are given the number of soliders. In the second line you are given the IDs of each solider. In the third line you are given two numbers, IDs of the first and last solider of the first sub-interval. In the fourth line you are given two numbers, IDs of the first and last solider of the second sub-interval.
+
+Output: Print the new solider line-up (i.e. their IDs)
+
+NOTE 1: The sub-intervals will never overlap, and will have at least one solider. The whole array will contain at least two soliders. NOTE 2: Pay special attention to intervals which are next to eachother, contain the first or last solider.
+
+Class name: DLLVojska
+*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
