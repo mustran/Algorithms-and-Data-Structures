@@ -1,5 +1,3 @@
-package Lab04_StacksAndQueues;
-
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
