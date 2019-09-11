@@ -1,3 +1,16 @@
+/*
+List of lists Problem 3 (2 / 4)
+You are given a DLL of DLLs. Find the sum of each of the DLLs, and then the product of the sums of the DLLs
+
+Input: First line: N number of DLLs Second line: М number of elements in each DLL In the next М lines are the values 1<=A<=1000 for each of the DLLs
+
+Output: The product of the sums of the lists with seven decimals.
+
+Example Input: 3 4 1 2 3 4 2 3 4 5 6 7 8 9
+
+Output: 1400
+*/
+
 package ExercisesForFirstPartialExam;
 
 import java.io.BufferedReader;
